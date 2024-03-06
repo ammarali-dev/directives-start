@@ -25,6 +25,7 @@ export class BetterHighlightDirective {
     // );
     this.backgroundColor = this.defaultColor;
   }
+
   @HostListener('mouseenter') mouseOver(eRTRventData: Event) {
     // this.renderer.setStyle(
     //   this.elementRef.nativeElement,
